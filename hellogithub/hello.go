@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-  fmt.printin("hello world") 
+  fmt.println("hello world") 
 }
