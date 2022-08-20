@@ -11,3 +11,4 @@
   RUN go install -v ./...
   # CMD 行表示使用镜像时的默认程序名字
   CMD ["app"]
+  ```
