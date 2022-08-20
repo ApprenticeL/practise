@@ -11,4 +11,6 @@
     RUN go install -v ./...
     # CMD 行表示使用镜像时的默认程序名字
     CMD ["app"]
+    
+    # 有了 Dockerfile 之后，就可以通过 docker build 命令构建出所需要的应用
     ```
