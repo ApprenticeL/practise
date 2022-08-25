@@ -1,6 +1,6 @@
 1. Dockerfile构建镜像
     
-    ```
+    ``` bash
     # 用 FROM 来表示构建所基于的镜像（镜像是可以复用的），本处使用golang官方镜像
     FROM golang:1.12-alpine
     # WORKDIR 行表示具体在哪个目录下进行构建
@@ -19,7 +19,7 @@
     
 2. 运行容器
     
-    ```
+    ```bash
     # 从docker registry下载镜像
     docker pull busybox:1.25
     # 查看本地镜像
